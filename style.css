@@ -1,66 +1,132 @@
 body {
-  margin: 0;
 }
-
 .wrapper {
-  background-image: url("./images/i.webp");
+  background-image: url("/images/i.webp");
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.wrapper-inside {
-  height: 100%;
-  background-color: rgba(9, 12, 61, 0.562);
-}
 header {
-  padding: 20px;
-  color: white;
-  font-size: 30px;
+  text-align: center;
+  color: rgb(43, 3, 218);
+  font-size: 20px;
   font-family: sans-serif;
-  text-decoration: underline;
-  text-align: center;
+  padding: 50px;
 }
 
-.group {
+.square {
+  border: 1px solid;
+  border-color: brown;
+  height: 160px;
+  width: 160px;
+  margin: 5px;
+  text-align: center;
+  color: rgb(14, 3, 3);
+  font-family: sans-serif;
+  line-height: 10;
   background-color: brown;
-  width: 160px;
-  height: 160px;
-  color: white;
-  margin: 0px 150px;
-  text-align: center;
-  line-height: 9;
-}
-
-.column {
-  background-color: rgb(165, 42, 110);
-  width: 160px;
-  height: 160px;
-  margin: 5px 150px;
-  color: white;
-  text-align: center;
-  line-height: 9;
 }
 
 .rectangle {
-  background-color: rgb(52, 165, 42);
-  width: 160px;
+  border: 1px solid;
+  border-color: rgb(42, 130, 165);
   height: 80px;
-  color: rgb(7, 7, 7);
+  width: 160px;
+  margin: 5px;
   text-align: center;
-  line-height: 5;
+  color: white;
   font-family: sans-serif;
-  margin: 0px 150px;
+  line-height: 5;
+  background-color: rgb(39, 128, 4);
 }
-.rectangle-nearby {
-  background-color: rgb(210, 224, 14);
+
+.another {
+  position: absolute;
+  left: 175px;
+  top: 207px;
+}
+
+.about {
+  position: absolute;
+  left: 342px;
+  top: 207px;
+}
+
+.about > .square {
+  border: 1px solid;
+  border-color: rgb(165, 42, 149);
+  height: 160px;
   width: 160px;
-  height: 80px;
-  color: rgb(7, 7, 7);
+  margin: 5px;
   text-align: center;
-  line-height: 5;
+  color: rgb(2, 141, 21);
   font-family: sans-serif;
-  margin: 5px 150px;
+  line-height: 10;
+  background-color: rgb(165, 42, 149);
+}
+
+.about > .rectangle {
+  border: 1px solid;
+  border-color: rgb(31, 2, 27);
+  height: 80px;
+  width: 160px;
+  margin: 5px;
+  text-align: center;
+  color: rgb(252, 4, 4);
+  font-family: sans-serif;
+  line-height: 5;
+  background-color: rgb(31, 2, 27);
+}
+
+.another > .rectangle {
+  border: 1px solid;
+  border-color: rgb(4, 1, 179);
+  height: 80px;
+  width: 160px;
+  margin: 5px;
+  text-align: center;
+  color: rgb(223, 1, 243);
+  font-family: sans-serif;
+  line-height: 5;
+  background-color: rgb(4, 1, 179);
+}
+
+.parent > .rectangle {
+  border: 1px solid;
+  border-color: rgb(1, 179, 10);
+  height: 80px;
+  width: 160px;
+  margin: 5px;
+  text-align: center;
+  color: rgb(28, 3, 250);
+  font-family: sans-serif;
+  line-height: 5;
+  background-color: rgb(1, 179, 10);
+}
+.parent > .square {
+  border: 1px solid;
+  border-color: rgb(241, 218, 5);
+  height: 160px;
+  width: 160px;
+  margin: 5px;
+  text-align: center;
+  color: rgb(8, 105, 231);
+  font-family: sans-serif;
+  line-height: 10;
+  background-color: rgb(241, 218, 5);
+}
+.another > .square3 {
+  border: 1px solid;
+  border-color: rgb(5, 241, 229);
+  height: 160px;
+  width: 160px;
+  margin: 5px;
+  text-align: center;
+  color: rgb(41, 2, 2);
+  font-family: sans-serif;
+  line-height: 10;
+  background-color: rgb(5, 241, 229);
 }
 
 footer {
